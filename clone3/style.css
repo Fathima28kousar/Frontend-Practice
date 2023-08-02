@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    color: white;
+    font-weight: 700;
+}
+
+.header-in {
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 20px;
+
+}
+
+.header-in a {
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+#button1  {
+    display: block;
+    border: 2px solid white;
+    height: 50px;
+    width: 230px;
+    margin-right: 20px;
+    background-color: #191a1b;
+    color: white;
+    border-radius: 10px;
+}
+#button1:hover {
+    border: 2px solid  #dadbf1;
+}
+
+#button2  {
+    display: block;
+    border: 2px solid black;
+    height: 50px;
+    width: 140px;
+    margin-right: 20px;
+    background-color: #4c5fd5;
+    color: white;
+    border-radius: 10px;
+}
+
+#button2:hover {
+    border: 2px solid white;
+}
+
+.hero-section {
+    width: 100%;
+    height: 400px;
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero-content {
+    font-family: "GT America Standard";
+    font-weight: 100;
+    font-size: 60px; 
+    margin: 0px 0px 16px;
+} 
+
+
+input {
+    height: 40px;
+    width:45%;
+    border: 2px solid black;
+    display: flex;
+ }
+
+.main-content {
+    height: 350px;
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: yellow;
+    margin-top: 100px;
+} 
+
+.boxes {
+    height: 100px;
+    border: 2px solid black;
+    width: 40%;
+    background-color: pink;
+}
+
+.sticker {
+    
+
+}
+
+.footer {
+    height: 18rem;
+    width: 100%;
+    background-color: black;
+    margin-top : 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+ li a {
+    color: white;
+    text-decoration: none;
+ }
+
+ li {
+    margin-bottom: 5px;
+ }
+
+ h3 {
+    color: white;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+ }
+
+ .copyright {
+    color: white;
+    font-weight: 700;
+    margin-right: 300px;
+    font-size: 20px;
+    margin-top: 150px;
+    
+}
+    
+ 

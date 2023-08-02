@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   
 }
 
       /** Header**/
@@ -12,7 +11,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    
 }
 
 .navbar {
@@ -21,8 +19,6 @@
     width: 300px;
     background-color: #e8e5e480;
     border-radius: 30px;
-   
-   
 }
 
 .list {
@@ -106,8 +102,6 @@ a {
     justify-content: space-evenly;
 }
 
-
-
 .image {
     height: 370px;
     border: 2px solid transparent;
@@ -120,9 +114,8 @@ a {
 
 .image:hover  {
     opacity: 0.75;
-   
-
 }
+
 .work {
    text-align: center;
    margin-top: 100px;
@@ -147,9 +140,9 @@ a {
     margin-left: 30px;
     height:100px;
 }
+
  .footer p {
     width: 75%;
-    
  }
 
  .footer ul {
@@ -164,3 +157,79 @@ a {
  ul a:hover {
     color: gray;
  }
+
+/** media**/
+
+@media(min-width:150px) and (max-width:720px){
+      
+    .body {
+        width:100%;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    /*Main content**/
+
+    .heading h1 {
+        font-size: 30px;
+        overflow-wrap: normal;
+    }
+    
+    .services {
+        display: none;
+    }
+    
+    .lists {
+        display: none;
+    }
+    
+    .image-content {
+        margin-top: 40px;
+        margin-left: 15px auto;
+        height:100%;
+    }
+    
+    .images {
+        display: inline;
+    }
+    
+    .image {
+        height: 340px;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 20px ;
+    }
+    
+    .image:hover  {
+        opacity: 1;
+    }
+    
+    .footer {
+        display: block;
+        text-align: center;
+        height: 100px;
+        margin-left: 0;
+    }
+
+     .footer .links {
+        display: inline;
+        text-align: center;
+     }
+    
+     .footer ul {
+        width: 0;
+        margin-left: 0;
+     }
+    
+     .footer p {
+        margin-bottom: 10px;
+        margin-left: 50px;
+     }
+
+     ul a {
+        margin-right: 5px;
+     }
+    }
