@@ -22,7 +22,12 @@
 .logo {
     margin-left: 100px;
     margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
 
+.logo:hover {
+    border: none;
 }
 
 .header-in a {
@@ -30,6 +35,7 @@
     text-decoration: none;
     margin-right: auto;
 }
+
 
 #button1  {
     display: block;
@@ -42,7 +48,7 @@
     border-radius: 10px;
 }
 #button1:hover {
-    border: 2px solid  #dadbf1;
+    border: 2px solid  blue;
 }
 
 #button2  {
@@ -87,26 +93,53 @@ input {
  }
 
 .main-content {
-    height: 350px;
-    border: 2px solid pink;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: yellow;
     margin-top: 100px;
+   
 } 
 
 .boxes {
     height: 100px;
-    border: 2px solid black;
     width: 40%;
-    background-color: pink;
+    display: flex;
+    margin-bottom: -20px;
+    margin-top: -20px;
 }
 
 .sticker {
-    
+    height:90px;
+    width: 150px;
+    background-size: cover;
+    margin: 2.5px;
+    border-radius: 3px;
 
+}
+
+.content h3 {
+    color: black;
+}
+
+.section-stick {
+    margin-left: 2px;
+}
+
+.footer-stick {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.footer-stick a {
+    color: #4c5fd5;
+    text-decoration : none;
+}
+
+.footer-stick a:hover {
+    
+    text-decoration : underline;
 }
 
 .footer {
@@ -131,6 +164,10 @@ input {
     color: white;
     text-decoration: none;
  }
+
+li a:hover {
+    text-decoration: underline;
+}
 
  li {
     margin-bottom: 5px;
