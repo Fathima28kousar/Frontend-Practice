@@ -59,6 +59,10 @@ h3 {
     margin-bottom: 50px;
 }
 
+.container p {
+    text-align: justify;
+}
+
 section p {
     font-size: 1.5rem;
     background-color: black;
@@ -68,12 +72,13 @@ section p {
 }
  button {
      height: 2.5rem;
-     width: 7rem;
+     width: 7.3rem;
      margin-top: 20px;
      background-color: white;
      border: none;
      border-radius: 2rem;
      color: black;
+     
  }
 
  button:hover {
@@ -81,6 +86,10 @@ section p {
     border: 2px solid black;
     font-size: 0.8rem;
 
+ }
+
+ button i {
+    color: black;
  }
 
  .main-img {
@@ -105,10 +114,18 @@ section p {
 
  .container {
     display: grid;
-    grid-auto-rows:minmax(100px,auto);
+    grid-auto-rows:max(100px,auto);
     row-gap: 200px;
     column-gap: 20px;
     color: white;
+    word-wrap: break-word;
+ }
+
+ .container p {
+    width: 75%;
+    line-height: 25px;
+    margin-top: 50px;
+    word-wrap: break-word;
  }
 
  .items {
@@ -119,7 +136,7 @@ section p {
 
 #item1 {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
     background-size: cover;
@@ -128,7 +145,7 @@ section p {
 
 #item2 {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 5;
     text-align: left ;
@@ -137,16 +154,16 @@ section p {
 }
 
 #item3 {
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 3;
     
 }
 
 #item4 {
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
     grid-column-start: 3;
     grid-column-end: 5;
     background-size: cover;
@@ -156,8 +173,8 @@ section p {
 }
 
 #item5 {
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 10;
     grid-column-start: 1;
     grid-column-end: 3;
     background-size: cover;
@@ -165,21 +182,101 @@ section p {
 }
 
 #item6 {
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 10;
     grid-column-start: 3;
     grid-column-end: 5;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.cont {
+    height: 600px;
+    border: 2px solid black;
+
+}
+
+
+.images {
+    height: 450px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.image {
+    height: 400px;
+    width: 45%;
+    background-size: cover;         
+        
+} 
+
+.cont-footer h3 {
+    color: white;
+    width: 50%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
+}
+
+.cont-footer {
+    display: flex;
+    margin-left: 35px;
+    text-align: left;
+}
+
+.cont-footer p {
+    border: 2px solid transparent;
+    color: white;
+    font-weight: 300;
+
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.partners i:hover {
+    font-size: 1.9rem;
+
+}
+
+.partners h3 {
+   margin: 100px 30px 30px 100px;
+   font-weight: 900;
+   font-size: 30px;
+   color: white;
+}
+
+.touch {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
  footer {
     display: flex;
     
  }
 
+ footer li {
+    margin-bottom: 20px;
+
+ }
+
 ul {
     margin: 20px 50px 50px 0;
     list-style-type: none;
+    margin-bottom: 20px;
+
     
 }
 
@@ -189,7 +286,7 @@ ul a {
     background-color: black;
     border: 2px solid black;
     text-decoration: none;
-
+  
 }
 
 ul a:hover {
@@ -222,7 +319,7 @@ footer button:hover {
 
 
 i {
-    margin: 10px;
+    margin: 15px;
     color: white;
 }
 
