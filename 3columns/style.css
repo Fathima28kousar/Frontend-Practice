@@ -1,0 +1,224 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    width: 100%;
+}
+
+.orange {
+    
+    min-width: 40% ;
+    background-color: orange;
+    color: white;
+    text-align: left;
+    padding: 2rem 3rem 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    
+}
+
+.green {
+    
+    min-width: 40% ;
+    background-color: #255957;
+    color: white;
+    text-align: left;
+    padding: 2rem 3rem 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.blue {
+   
+    min-width: 40% ;
+    background-color: #045037;
+    color: white;
+    text-align: left;
+    padding: 2rem 3rem 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.header i {
+     display: inline-block;
+     padding-bottom: 2rem;
+     font-size: 150%;
+}
+
+.heading {
+    padding-bottom: 3rem;
+}
+
+.heading h3 {
+    padding-bottom: 1rem;
+}
+
+button {
+    padding: 5% 9%;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+ /* responsiveness */
+@media (min-width: 150px) and (max-width: 600px){ 
+
+
+    
+    body {
+       min-width: 100%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 1rem 2rem 1rem;
+        flex-direction: column;
+        width: 85%;
+        
+    }
+  
+    
+    .orange {
+        border-radius: 4% 4% 0 0;
+        height: 40%;
+        min-width: 20% ;
+    }
+    
+    .blue {
+        border-radius: 0 0 4% 4%;
+        height: 25rem;
+        min-width: 20% ;
+    }
+
+    .green {
+        height: 25rem;
+        min-width: 20% ;
+    }
+
+    button {
+        padding: 5% 9%;
+        border: none;
+        border-radius: 2rem;
+        background-color: white;
+        margin-bottom: 1.5rem;
+    }
+}  
+
+
+
+/* media (min-width: 601px) and (max-width: 1200px){
+    * {
+        padding:0;
+        margin :0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 200px;
+        
+        
+    }
+    
+    .orange {
+        height: 25rem;
+        width: 20rem;
+        background-color: orange;
+        color: white;
+        text-align: left;
+        padding: 2rem 3rem 0 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+    
+    .green {
+        height: 25rem;
+        width: 20rem;
+        background-color: #255957;
+        color: white;
+        text-align: left;
+        padding: 2rem 3rem 0 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .blue {
+        height: 25rem;
+        width: 20rem;
+        background-color: #045037;
+        color: white;
+        text-align: left;
+        padding: 2rem 3rem 0 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        border-top-right-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+    }
+    
+    .header i {
+         display: inline-block;
+         padding-bottom: 2rem;
+         font-size: 2rem;
+    }
+    
+    .heading {
+        padding-bottom: 3rem;
+    }
+    
+    .heading h3 {
+        padding-bottom: 1rem;
+    }
+    
+    button {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 2rem;
+        background-color: white;
+        margin-bottom: 1.5rem;
+    }
+    
+    button:hover {
+        background-color: whitesmoke;
+        font-size: 0.9rem;
+    }
+} */
