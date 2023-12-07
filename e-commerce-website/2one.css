@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Navbar Starts here */
+nav {
+    height: 100px;
+}
+
+nav img {
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+
+ul li a {
+    font-size: 1.1rem;
+}
+
+.hover:hover{
+    color:  #8BC34A !important;
+}
+
+.fa-basket-shopping {
+    color: #8BC34A
+}
+
+.fa-user {
+    color: black;
+}
+
+/* Navbar Ends Here */
+
+/* Hero section */
+.center-block .col-xs-6 {
+    height: 100px;
+    width : 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.hero {
+    height: 100vh;
+}
+
+#hero_photo{
+    margin-top: 7.5rem;
+    margin-left: -3.5rem;
+}
+
+
+

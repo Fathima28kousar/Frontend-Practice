@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    background-color: peachpuff;
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+img {
+    display: block;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.profile-pic-figure {
+    width: 25%;
+}
+
+body {
+    font-family: "roboto",sans-serif;
+    min-height: 100vh;
+}
