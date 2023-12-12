@@ -40,7 +40,7 @@ ul li a {
 }
 
 .hero {
-    height: 110vh;
+    height: auto;
 }
 
 #hero_photo{
@@ -54,12 +54,11 @@ ul li a {
     height: 450px;
     width: 300px;
     margin-right: -10rem;
-    
-    
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    
 }
 
 #hero_section_2 h1 {
@@ -94,6 +93,128 @@ ul li a {
 }
 
 /* Hero section Ends Here */
+
+/* Offer starts here */
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100vw;
+    height: 8rem;
+    gap: 10rem;
+}
+
+.offer #offer-btn{
+    padding: 10px 28px;
+    background-color: #6A9739;
+    color: white;
+}
+
+.offer #offer-btn:hover {
+    background-color: #8BC34A;
+    font-weight: 500;
+}
+
+/* Offer ends here */
+
+/* Fruits Section Starts Here */
+
+.fruits {
+    gap: 2rem;
+    height: 40rem;
+    align-items: center;
+    
+}
+
+.fruits .box {
+    background-color: white;
+    height: 60vh;
+    border-radius: 0.5rem;
+    border: none;
+    width : 30vw;
+    padding: 20px 30px 10px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fruits .box h2,
+.fruits .box p,
+.fruits .box button {
+    position: relative;
+    z-index: 2; /* Ensure these elements are displayed above the image */
+}
+
+.fruits .fuits-btn{
+    padding: 10px 28px;
+    background-color: #6A9739;
+    color: white;
+    margin-bottom: 0;
+}
+
+.fruits .fuits-btn:hover {
+    background-color: #8BC34A;
+    font-weight: 500;
+}
+
+.box1 img ,.box2 img , .box3 img{
+    max-width: none; 
+    width: auto;
+    height: 300px;
+    border: none;
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: cover; 
+    /* Ensure the image covers the entire container */
+
+    
+}
+
+/* Fruits Section Ends Here */
+
+/* Icon starts Here */
+.icon {
+    background-color: black;
+    height: 12rem;
+    width: 100vw;
+    gap: 1rem;
+}
+
+.icon-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+}
+
+.item-icon {
+    background-color: #333333;
+    color: white;
+    width: 21rem;
+    height: 9rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item-icon a {
+    color: #8BC34A;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Icon ends Here */
+
+
+
 /* Footer Starts Here */
 
 footer {
@@ -125,3 +246,4 @@ section .container ul li {
     color: #8BC34A;
 }
 
+/* End */
