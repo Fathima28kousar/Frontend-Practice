@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+::selection {
+    background-color: #8BC34A;
+    
+}
+/* Navbar Starts here */
+nav {
+    height: 100px;
+    background-color: #F8F6F3;
+}
+
+nav img {
+    height: 90px;
+    mix-blend-mode: multiply;
+}
+
+ul li a {
+    font-size: 1.1rem;
+}
+
+.hover:hover{
+    color:  #8BC34A !important;
+}
+
+.fa-basket-shopping {
+    color: #8BC34A
+}
+
+.fa-user {
+    color: black;
+}
+
+/* Navbar Ends Here */
+/* About us */
+.about {
+    height: 10rem;
+    background-color: #F8F6F3;
+   
+}
+
+.about h1 {
+    font-size: 70px;
+    font-family: "Merriweather",serif;
+    font-weight: 500;
+}
+
+/* hero section */
+.hero-section2 {
+    height: 100vh;
+    margin: 100px 20px;
+}

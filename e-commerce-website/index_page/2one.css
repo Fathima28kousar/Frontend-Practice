@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+::selection {
+    background-color: #8BC34A;
+    
+}
 /* Navbar Starts here */
 nav {
     height: 100px;
@@ -101,10 +105,8 @@ ul li a {
     align-items: center;
     background-color: black;
     color: white;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     width: 100vw;
-    height: 8rem;
+    height: 10rem;
     gap: 10rem;
 }
 
@@ -126,7 +128,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 15rem;
     gap: 2rem;
 }
 /* logo */
@@ -135,13 +137,14 @@ ul li a {
 .customer-reviews {
     gap: 5vmin;
     width: 100vw;
+    height: 100vh;
 }
 
 .card #customer1{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: none;
 }
 
 .card-line {
@@ -157,10 +160,17 @@ ul li a {
     margin-top: auto;
 }
 
+.five-star i{
+    color: orange;
+}
+
+.card-body {
+    height: 20rem;
+}
+
 #customer_two{
     width: 60vmin;
     height: 28rem;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,6 +181,7 @@ ul li a {
     color: white;
     font-weight: 400;
     gap: 1.5rem;
+    margin-top: auto;
 }
 
 #customer_two:hover{
@@ -191,8 +202,7 @@ ul li a {
 
 .card p {
     text-align: center;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 /* Fruits Section Starts Here */
@@ -254,16 +264,17 @@ ul li a {
 /* Icon starts Here */
 .icon {
     background-color: black;
-    height: 12rem;
+    height: 14rem;
     width: 100vw;
-    gap: 1rem;
+    
 }
 
 .icon-inner {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem; 
+    height: 100%;
+    width: 100vw;
 }
 
 .item-icon {
@@ -271,7 +282,7 @@ ul li a {
     color: white;
     width: 21rem;
     height: 9rem;
-    margin: 0.5rem;
+    margin: 1.6rem 0.5rem;
     border-radius: 0.25rem;
     display: flex;
     justify-content: center;
