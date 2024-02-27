@@ -5,7 +5,6 @@
 }
 ::selection {
     background-color: #8BC34A;
-    
 }
 /* Navbar Starts here */
 .logos1 img{
@@ -78,7 +77,7 @@ ul li a {
     padding: 10px 15px;
 }
 
-/* Dropdown menu */
+
 .dropdown_menu {
     display: none;
     position: relative;
