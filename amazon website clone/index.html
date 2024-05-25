@@ -1,90 +1,286 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        
-        <div class="nav-logo border">
-          <div class="logo">
-          </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo">
         </div>
-        <div class="nav-address border">
-          <p class="add-1">Deliver to</p>
-            <div class="nav-icon">
-              <i class="fa-solid fa-location-dot"></i>
-              <p class="add-2">India</p>
+      </div>
+      <div class="nav-address border">
+        <p class="add-1">Deliver to</p>
+        <div class="nav-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-2">India</p>
+        </div>
+      </div>
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+      </div>
+      <div class="nav-signin border">
+        <p><span>Hello,sign in</span></p>
+        <p class="nav-second">Accounts & Lists</p>
+      </div>
+      <div class="nav-returns border">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+    <div class="pannel ">
+      <div class="pannel-all border">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+      <div class="pannel-ops border">
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p> Gift Cards</p>
+        <p>Sell</p>
+      </div>
+
+      <div class="pannel-deals border">
+        Shop deals in electronics
+      </div>
+    </div>
+  </header>
+
+  <div class="imageContainer">
+    <div class="imageList">
+      <div class="imageItem">
+        <img src="./hero_image.jpg" />
+      </div>
+      <div class="imageItem">
+        <img src="./heroImage2.jpg" />
+      </div>
+      <div class="imageItem">
+        <img src="./heroImage3.jpg" />
+      </div>
+
+      <div class="imageItem">
+        <img src="./heroImage4.jpg" />
+      </div>
+      <div class="imageItem">
+        <img src="./heroImage5.jpg" />
+      </div>
+    </div>
+    <div class="imageBtnContainer">
+      <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+  <main>
+    <div class="mains">
+      <div class="card-product-container">
+        <div class="card-product">
+          <h2>Amazon Gadget Store</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/card1.jpg" />
+              <p>Smartphones</p>
             </div>
-        </div>
-
-        <div class="nav-search">
-          <select class="search-select">
-            <option>All</option>
-          </select>
-          <input placeholder="Search Amazon" class="search-input">
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="card-nested">
+              <img src="images/card2.jpg" />
+              <p>Tablets</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card3.jpg" />
+              <p>Laptops</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card4.jpg" />
+              <p>TVs</p>
+            </div>
           </div>
-
-        </div>
-        <div class="nav-signin border">
-          <p><span>Hello,sign in</span></p>
-          <p class="nav-second">Accounts & Lists</p>
-        </div>
-        <div class="nav-returns border">
-          <p><span>Returns</span></p>
-          <p class="nav-second">& Orders</p>
-        </div>
-
-        <div class="nav-cart border">
-          <i class="fa-solid fa-cart-shopping"></i>
-          Cart
+          <p><a href="#">See more</a></p>
         </div>
       </div>
-      <div class="pannel ">
-        <div class="pannel-all border">
-          <i class="fa-solid fa-bars"></i>
-          All
-        </div>
-        <div class="pannel-ops border">
-          <p>Today's Deals</p>
-          <p>Customer Service</p>
-          <p>Registry</p>
-          <p> Gift Cards</p>
-          <p>Sell</p>
-        </div>
-
-        <div class="pannel-deals border">
-          Shop deals in electronics
-        </div>
-    </div>
-    </header>
-    <div class="hero-section">
-      <div class="hero-msg">
-        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a></p>
-      </div>
-    </div>
-    <div class="shop-section">
       <div class="box1 box">
         <div class="box-content">
-         <h2>Clothes</h2>
-         <div class="image" style="background-image: url(./box1_image.jpg);"></div>
-         <p><a href="#">See more</a></p>
+          <h2>Smartwatches</h2>
+          <div class="image" style="background-image: url(./images/watch.jpg);"></div>
+          <p><a href="#">See more</a></p>
         </div>
       </div>
+      <div class="card-product-container">
+        <div class="card-product">
+          <h2>Deals on gifts for Dad</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/card5.jpg" />
+              <p>Smartphones</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card6.jpg" />
+              <p>Tablets</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card7.jpg" />
+              <p>Laptops</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card8.jpg" />
+              <p>TVs</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+
+      <div class="box1 box">
+        <div class="box-content">
+          <h2>Laptops for every need</h2>
+          <div class="image" style="background-image: url(./images/laptop.jpg);"></div>
+          <p><a href="#">Find your laptop here</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="shop-section">
+      <div class="box5 box">
+        <div class="box-content">
+          <h2>Make up</h2>
+          <div class="image" style="background-image: url(./box5_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box6 box">
+        <div class="box-content">
+          <h2>Pet Care</h2>
+          <div class="image" style="background-image: url(./box6_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box7 box">
+        <div class="box-content">
+          <h2>New Arrivals in Toys</h2>
+          <div class="image" style="background-image: url(./box7_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box8 box">
+        <div class="box-content">
+          <h2>Discover fashion trends</h2>
+          <div class="image" style="background-image: url(./box8_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel carousel-1">
+      <div class="slider-wrapper">
+        <h2>Most wished for in Video Games</h2>
+        <div class="l-btn"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="r-btn"><i class="fa-solid fa-chevron-right"></i></div>
+        <ul class="image-list">
+          <li><img src="images/img1.jpg" alt="img1" class="image-item" /></li>
+          <li><img src="images/img2.jpg" alt="img2" class="image-item" /></li>
+          <li><img src="images/img3.jpg" alt="img3" class="image-item" /></li>
+          <li><img src="images/img4.jpg" alt="img4" class="image-item" /></li>
+          <li><img src="images/img5.jpg" alt="img5" class="image-item" /></li>
+          <li><img src="images/img6.jpg" alt="img6" class="image-item" /></li>
+          <li><img src="images/img7.jpg" alt="img7" class="image-item" /></li>
+          <li><img src="images/img8.jpg" alt="img8" class="image-item" /></li>
+          <li><img src="images/img9.jpg" alt="img9" class="image-item" /></li>
+          <li><img src="images/img10.jpg" alt="img10" class="image-item" /></li>
+          <li><img src="images/img11.jpg" alt="img11" class="image-item" /></li>
+          <li><img src="images/img12.jpg" alt="img12" class="image-item" /></li>
+          <li><img src="images/img13.jpg" alt="img13" class="image-item" /></li>
+          <li><img src="images/img14.jpg" alt="img14" class="image-item" /></li>
+          <li><img src="images/img15.jpg" alt="img15" class="image-item" /></li>
+          <li><img src="images/img16.jpg" alt="img16" class="image-item" /></li>
+
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="carousel carousel-2">
+      <div class="slider-wrapper">
+        <h2>Transform your space with furniture from stores nearby</h2>
+        <div class="l-btn"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="r-btn"><i class="fa-solid fa-chevron-right"></i></div>
+        <ul class="image-list">
+          <li><img src="images/snap1.jpg" alt="img1" class="image-item" /></li>
+          <li><img src="images/snap2.jpg" alt="img2" class="image-item" /></li>
+          <li><img src="images/snap3.jpg" alt="img3" class="image-item" /></li>
+          <li><img src="images/snap4.jpg" alt="img4" class="image-item" /></li>
+          <li><img src="images/snap5.jpg" alt="img5" class="image-item" /></li>
+          <li><img src="images/snap6.jpg" alt="img6" class="image-item" /></li>
+          <li><img src="images/snap7.jpg" alt="img7" class="image-item" /></li>
+          <li><img src="images/snap8.jpg" alt="img8" class="image-item" /></li>
+          <li><img src="images/snap9.jpg" alt="img9" class="image-item" /></li>
+          <li><img src="images/snap10.jpg" alt="img10" class="image-item" /></li>
+          <li><img src="images/snap11.jpg" alt="img11" class="image-item" /></li>
+          <li><img src="images/snap12.jpg" alt="img12" class="image-item" /></li>
+          <li><img src="images/snap13.jpg" alt="img13" class="image-item" /></li>
+          <li><img src="images/snap14.jpg" alt="img14" class="image-item" /></li>
+          <li><img src="images/snap15.jpg" alt="img15" class="image-item" /></li>
+          <li><img src="images/snap16.jpg" alt="img16" class="image-item" /></li>
+
+
+        </ul>
+      </div>
+    </div>
+
+  
+    <div class="shop-section">
+
       <div class="box2 box"><div class="box-content">
         <h2>Health and Care</h2>
         <div class="image" style="background-image: url(./box2_image.jpg);"></div>
         <p><a href="#">See more</a></p>
        </div>
+      </div>
+      <div class="card-product-container">
+        <div class="card-product">
+          <h2>Amazon Gadget Store</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/card1.jpg"/>
+              <p>Smartphones</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card2.jpg"/>
+              <p>Tablets</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card3.jpg"/>
+              <p>Laptops</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/card4.jpg"/>
+              <p>TVs</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
+        </div>
       </div>
       <div class="box3 box"><div class="box-content">
         <h2>Furniture</h2>
@@ -92,48 +288,207 @@
         <p><a href="#">See more</a></p>
        </div>
       </div>
-      <div class="box4 box"><div class="box-content">
-        <h2>Electronics</h2>
-        <div class="image" style="background-image: url(./box4_image.jpg);"></div>
-        <p><a href="#">See more</a></p>
-       </div>
+      
+        <div class="card-product-container">
+          <div class="card-product">
+            <h2>Amazon Gadget Store</h2>
+            <div class="cart-product-nested-card">
+              <div class="card-nested">
+                <img src="images/card1.jpg"/>
+                <p>Smartphones</p>
+              </div>
+              <div class="card-nested">
+                <img src="images/card2.jpg"/>
+                <p>Tablets</p>
+              </div>
+              <div class="card-nested">
+                <img src="images/card3.jpg"/>
+                <p>Laptops</p>
+              </div>
+              <div class="card-nested">
+                <img src="images/card4.jpg"/>
+                <p>TVs</p>
+              </div>
+            </div>
+            <p><a href="#">See more</a></p>
+          </div>
+        </div>
+      
       </div>
     </div>
-    <div class="shop-section">
-      <div class="box5 box">
-        <div class="box-content">
-         <h2>Make up</h2>
-         <div class="image" style="background-image: url(./box5_image.jpg);"></div>
-         <p><a href="#">See more</a></p>
+  
+
+    <section>
+      <div class="card_product_container">
+        <div class="card-product">
+          <h2>Appliances for your home</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/car1.jpg" />
+              <p>Smartphones</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car2.jpg" />
+              <p>Tablets</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car3.jpg" />
+              <p>Laptops</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car4.jpg" />
+              <p>TVs</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
         </div>
       </div>
-      <div class="box6 box"><div class="box-content">
-        <h2>Pet Care</h2>
-        <div class="image" style="background-image: url(./box6_image.jpg);"></div>
-        <p><a href="#">See more</a></p>
-       </div>
+
+      <div class="card_product_container">
+        <div class="card-product">
+          <h2>Under ₹499</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/car5.jpg" />
+              <p>Clothing</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car6.jpg" />
+              <p>Backpacks</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car7.jpg" />
+              <p>Footwear</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car8.jpg" />
+              <p>View All</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
+        </div>
       </div>
-      <div class="box7 box"><div class="box-content">
-        <h2>New Arrivals in Toys</h2>
-        <div class="image" style="background-image: url(./box7_image.jpg);"></div>
-        <p><a href="#">See more</a></p>
-       </div>
+
+      <div class="card_product_container">
+        <div class="card-product">
+          <h2>Curate your space</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/car9.jpg" />
+              <p>Candles</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car10.jpg" />
+              <p>Stylish pillows</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car11.jpg" />
+              <p>Dining</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car12.jpg" />
+              <p>Storage</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
+        </div>
       </div>
-      <div class="box8 box"><div class="box-content">
-        <h2>Discover fashion trends</h2>
-        <div class="image" style="background-image: url(./box8_image.jpg);"></div>
-        <p><a href="#">See more</a></p>
-       </div>
+
+      <div class="card_product_container">
+        <div class="card-product">
+          <h2>Level up your beauty</h2>
+          <div class="cart-product-nested-card">
+            <div class="card-nested">
+              <img src="images/car13.jpg" />
+              <p>Makeup</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car14.jpg" />
+              <p>Brushes</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car15.jpg" />
+              <p>Sponges</p>
+            </div>
+            <div class="card-nested">
+              <img src="images/car16.jpg" />
+              <p>Mirrors</p>
+            </div>
+          </div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="shop-section">
+      <div class="box1 box">
+        <div class="box-content">
+          <h2>Clothes</h2>
+          <div class="image" style="background-image: url(./box1_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box2 box">
+        <div class="box-content">
+          <h2>Health and Care</h2>
+          <div class="image" style="background-image: url(./box2_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Furniture</h2>
+          <div class="image" style="background-image: url(./box3_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
+      </div>
+      <div class="box4 box">
+        <div class="box-content">
+          <h2>Electronics</h2>
+          <div class="image" style="background-image: url(./box4_image.jpg);"></div>
+          <p><a href="#">See more</a></p>
+        </div>
       </div>
     </div>
 
-    <footer>
-      <div class="foot-pannel-1">
-        <a href="#">Back to top</a>
+    <div class="carousel carousel-3">
+      <div class="slider-wrapper">
+        <h2>Electronic Gadgets</h2>
+        <div class="l-btn"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="r-btn"><i class="fa-solid fa-chevron-right"></i></div>
+        <ul class="image-list">
+          <li><img src="images/cap1.jpg" alt="img1" class="image-item" /></li>
+          <li><img src="images/cap2.jpg" alt="img2" class="image-item" /></li>
+          <li><img src="images/cap3.jpg" alt="img3" class="image-item" /></li>
+          <li><img src="images/cap4.jpg" alt="img4" class="image-item" /></li>
+          <li><img src="images/cap5.jpg" alt="img5" class="image-item" /></li>
+          <li><img src="images/cap6.jpg" alt="img6" class="image-item" /></li>
+          <li><img src="images/cap7.jpg" alt="img7" class="image-item" /></li>
+          <li><img src="images/cap8.jpg" alt="img8" class="image-item" /></li>
+          <li><img src="images/cap9.jpg" alt="img9" class="image-item" /></li>
+          <li><img src="images/cap10.jpg" alt="img10" class="image-item" /></li>
+          <li><img src="images/cap11.jpg" alt="img11" class="image-item" /></li>
+          <li><img src="images/cap12.jpg" alt="img12" class="image-item" /></li>
+          <li><img src="images/cap13.jpg" alt="img13" class="image-item" /></li>
+          <li><img src="images/cap14.jpg" alt="img14" class="image-item" /></li>
+          <li><img src="images/cap15.jpg" alt="img15" class="image-item" /></li>
+          <li><img src="images/cap16.jpg" alt="img16" class="image-item" /></li>
+
+
+        </ul>
       </div>
+    </div>
+    </div>
+  </main>
+
+    <footer>
+      <!-- <div class="foot-pannel-1">
+        <a href="#">Back to top</a>
+      </div> -->
       <div class="foot-pannel-2">
         <ul>
-          <p>Get to Know Us</p>
+          <h4>Get to Know Us</h4>
           <a href="#">Careers</a>
           <a href="#">Blog</a>
           <a href="#">About Amazon</a>
@@ -143,33 +498,32 @@
         </ul>
 
         <ul>
-          <p>Get to Know Us</p>
-          <a href="#">Careers</a>
-          <a href="#">Blog</a>
-          <a href="#">About Amazon</a>
-          <a href="#">Investor Relations</a>
-          <a href="#">Amazon Devices</a>
-          <a href="#">Amazon Science</a>
+          <h4>Make Money with Us</h4>
+          <a href="#">Sell products on Amazon</a>
+          <a href="#">Sell on Amazon Business</a>
+          <a href="#">Sell apps on Amazon</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Self-Publish with us</a>
         </ul>
 
         <ul>
-          <p>Get to Know Us</p>
-          <a href="#">Careers</a>
-          <a href="#">Blog</a>
-          <a href="#">About Amazon</a>
+          <h4>Amazon Payment Products</h4>
+          <a href="#">Amazon Business Card</a>
+          <a href="#">Shop with points</a>
+          <a href="#">Reload Your Balance</a>
           <a href="#">Investor Relations</a>
-          <a href="#">Amazon Devices</a>
-          <a href="#">Amazon Science</a>
+          <a href="#">Amazon Currency Converter</a>
         </ul>
 
         <ul>
-          <p>Get to Know Us</p>
-          <a href="#">Careers</a>
-          <a href="#">Blog</a>
-          <a href="#">About Amazon</a>
-          <a href="#">Investor Relations</a>
-          <a href="#">Amazon Devices</a>
-          <a href="#">Amazon Science</a>
+          <h4>Let Us Help You</h4>
+          <a href="#">Your Account</a>
+          <a href="#">Your Orders</a>
+          <a href="#">Shipping Rates & Policies</a>
+          <a href="#">Returns & Replacements</a>
+          <a href="#">Amazon Assistant</a>
+          <a href="#">Help</a>
         </ul>
       </div>
       <div class="foot-pannel-3">
@@ -185,8 +539,9 @@
           © 1996-2023, Amazon.com, Inc. or its affiliates
         </div>
       </div>
-      
+
     </footer>
-  </body>
-  </html>
-  
+    <script src="one.js"></script>
+</body>
+
+</html>
