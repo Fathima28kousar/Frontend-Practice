@@ -1,7 +1,4 @@
-// const leftBtn= document.querySelector(".l-btn");
-// const rightBtn = document.querySelector(".r-btn");
-
-
+// hero carousel
 let slideBtnLeft = document.getElementById("slide-btn-left")
 let slideBtnRight = document.getElementById("slide-btn-right")
 let imgItem = document.querySelectorAll(".imageItem")
@@ -50,60 +47,6 @@ function renderSlideAuto(){
 setInterval(renderSlideAuto,2500)
 
 
-// second carousel
-// rightBtn.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list");
-//         conent.scrollLeft +=1100;
-//         event.preventDefault();
-
-// })
-// leftBtn.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list");
-//         conent.scrollLeft -=1100;
-//         event.preventDefault();
-
-// })
-// const leftBtn1= document.querySelector(".btn-1b");
-// const rightBtn1 = document.querySelector(".btn-1a");
-
-
-// rightBtn1.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list-1");
-//         conent.scrollLeft +=1100;
-//         event.preventDefault();
-
-// })
-// leftBtn1.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list-1");
-//         conent.scrollLeft -=1100;
-//         event.preventDefault();
-
-// })
-// const leftBtn2= document.querySelector(".btn-1c");
-// const rightBtn2 = document.querySelector(".btn-1d");
-
-
-// rightBtn2.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list-2");
-//         conent.scrollLeft +=1100;
-//         event.preventDefault();
-
-// })
-// leftBtn2.addEventListener("click",
-//     function(event){
-//         const conent=document.querySelector(".image-list-2");
-//         conent.scrollLeft -=1100;
-//         event.preventDefault();
-// })
-
-
-
-// carousel main
 // Carousel 1
 const leftBtn1 = document.querySelector(".carousel-1 .l-btn");
 const rightBtn1 = document.querySelector(".carousel-1 .r-btn");
