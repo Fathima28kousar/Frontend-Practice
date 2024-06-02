@@ -224,6 +224,7 @@ main{
     /* background-color: #E3E6E6; */
     padding-left: 10px;
     display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(to bottom, transparent calc(100% - 150px), #E3E6E6 calc(100% - 150px));
 }
 
@@ -235,8 +236,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 300px;
+    width: 300px;
     background-color: white;
+    /* background-color: pink; */
 }
 
 .card-product a{
@@ -283,7 +285,7 @@ main{
 .box {
     height: 400px;
     background-color: white;
-    width: 23%;
+    width: 300px;
     padding: 20px 0px 15px;
     margin-top: 20px;
 }
@@ -400,6 +402,7 @@ section{
     background-color: #E3E6E6;
     display: flex;
     padding-left: 10px;
+    flex-wrap: wrap;
 }
 
 .card_product_container{
