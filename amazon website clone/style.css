@@ -222,12 +222,13 @@ main{
 
 .mains{
     /* background-color: #E3E6E6; */
+    padding-left: 10px;
     display: flex;
     background-image: linear-gradient(to bottom, transparent calc(100% - 150px), #E3E6E6 calc(100% - 150px));
 }
 
 .card-product-container{
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 
 .card-product{
@@ -266,6 +267,11 @@ main{
     object-fit: cover;
 }
 
+.card-nested p{
+    color: #454949;
+    font-size: 14px;
+}
+
 /* shopping section */
 .shop-section {
     display:flex;
@@ -284,25 +290,10 @@ main{
 
 .image {
     height: 80%;
-    background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.images{
-    height: 70%;
-    background-size: cover;
-    margin-bottom: 1rem;
-    display: flex; 
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.photo {
-    width: calc(33.33% - 10px); /* Adjust width based on desired layout */
-    height: 100%; /* Ensure height fills the container */
-    background-size: contain; /* Ensure full image is visible */
-    background-repeat: no-repeat; 
+    object-fit: cover;
+    width: 100%;
 }
 
 .box-content {
