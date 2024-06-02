@@ -170,6 +170,7 @@ span {
 
 .imageContainer{
     position: relative;
+
 }
 .imageList{
     display: flex;
@@ -221,24 +222,22 @@ main{
 }
 
 .mains{
-    /* background-color: #E3E6E6; */
-    padding-left: 10px;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
     background-image: linear-gradient(to bottom, transparent calc(100% - 150px), #E3E6E6 calc(100% - 150px));
 }
 
 .card-product-container{
-    padding: 20px 10px;
+    padding: 20px 5px;
 }
 
 .card-product{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: space-evenly;
+    width: 310px;
     background-color: white;
-    /* background-color: pink; */
 }
 
 .card-product a{
@@ -260,7 +259,6 @@ main{
 
 .card-nested{
     margin-bottom: 10px;
-    
 }
 
 .card-nested img{
@@ -280,12 +278,13 @@ main{
     justify-content: space-evenly;
     background-color: #E3E6E6;
     flex-wrap: wrap;
+
 }
 
 .box {
     height: 400px;
     background-color: white;
-    width: 300px;
+    width: 310px;
     padding: 20px 0px 15px;
     margin-top: 20px;
 }
@@ -397,18 +396,20 @@ main{
 }
 
 /* section */
-
 section{
     background-color: #E3E6E6;
     display: flex;
-    padding-left: 10px;
+    padding-left: 20px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .card_product_container{
-    padding: 20px 10px;
+    padding: 20px 0px;
+    width: 25%;
 }
-   /** footer**/
+
+/** footer**/
 
  footer {
     margin-top: 40px;
